@@ -22,7 +22,8 @@ public class EnemieController : MonoBehaviour
         {
             instance = this;
         }
-        else{
+        else
+        {
             Destroy(this.gameObject);
         }
 
