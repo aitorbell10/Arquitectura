@@ -24,12 +24,12 @@ public class ObjectPooling : MonoBehaviour
             GameObject obj = (GameObject)Instantiate(flechaa);
             obj.SetActive(true);
             pooledFlechas.Add(obj);
-            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
