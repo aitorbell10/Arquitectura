@@ -6,7 +6,6 @@ using UnityEngine;
 ///Clase Prototype
 ///</summary>
 
-//[AddComponentMenu("Ponce/Prototype/Cubos")]
 
 public class ProEnemies : Object
 {
