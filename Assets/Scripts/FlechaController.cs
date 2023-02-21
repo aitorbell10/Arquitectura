@@ -19,6 +19,7 @@ public class FlechaController : MonoBehaviour
         
     }
 
+    //Este apartado funciona igual que el enemie controller pero lo tiene la flecha para sumar puntuacion al score cuando ocurra lo mismo.
     public void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Enemigo"))

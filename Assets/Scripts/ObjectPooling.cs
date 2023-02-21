@@ -16,6 +16,7 @@ public class ObjectPooling : MonoBehaviour
     // Start is called before the first frame update
 
     //Object Pooling
+    //Esta parte de codigo sirve para crear un array de flechas infinito y siempre se instancien flechas en el player
     void Start()
     {
         pooledFlechas = new List<GameObject>();

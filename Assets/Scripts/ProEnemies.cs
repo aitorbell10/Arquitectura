@@ -11,6 +11,7 @@ public class ProEnemies : Object
 {
 
     //Prototype
+    //Este codigo sirve para dar las características necesarias a los cubos que se van a instanciar en la escena
     public static GameObject Clone(Vector3 pos)
     {
 

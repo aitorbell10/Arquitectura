@@ -39,6 +39,8 @@ public class EnemieController : MonoBehaviour
     {   
 
     }
+    //Esto funciona para que cuando choque la flecha con el enemigo desaparezca y 
+    //haga su animación de morir.
     public void OnCollisionEnter(Collision collision)
     {
         anim.SetTrigger("die");
